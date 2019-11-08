@@ -58,6 +58,7 @@ This packet is sent when the server needs player info. The client needs to send 
 ### Server Packet 20: Update Team Player
 
 This packet is sent when the client joins the room or another user joins changes their info.
+
 | Position | Data Type | Description
 |----------|-----------|-------------
 | 0        | uint8     | Opcode (20)
@@ -71,6 +72,7 @@ This packet is sent when the client joins the room or another user joins changes
 ### Server Packet 30: Update Team Player Position
 
 This packet is sent every second and contains the position and mass of a team player.
+
 | Position | Data Type | Description
 |----------|-----------|-------------
 | 0        | uint8     | Opcode (30)
@@ -83,6 +85,7 @@ This packet is sent every second and contains the position and mass of a team pl
 ### Server Packet 100: Chat Message
 
 This packet is sent when another user or the client sends a chat message.
+
 | Position | Data Type | Description
 |----------|-----------|-------------
 | 0        | uint8     | Opcode (100)
