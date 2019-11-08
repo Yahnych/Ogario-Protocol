@@ -105,6 +105,9 @@ This packet is sent when another user or the client sends a chat message.
 | 3      | [Client Death](#client-packet-3-player-death)
 | 10      | [Client Nick](#client-packet-10-player-nick)
 | 11      | [Client Tag](#client-packet-11-player-tag)
+| 12      | [Client Skin](#client-packet-12-player-skin)
+| 13      | [Client Custom Color](#client-packet-13-player-custom-color)
+| 14      | [Client Cell Color](#client-packet-14-player-cell-color)
 | 15      | [Client Party](#client-packet-15-party-token)
 | 16      | [Client Server Token](#client-packet-16-server-token)
 | 17      | [Client Region](#client-packet-17-player-region)
@@ -168,6 +171,33 @@ This packet is sent after the WebSocket Opens or after [Client Join](#client-pac
 |----------|-----------|-------------
 | 0        | uint8     | Opcode (11)
 | 1        | string16    | Client Tag
+
+### Client Packet 12: Player Skin
+
+It is not known when this packet is sent, the Ogario client itself does not use this packet.
+
+| Position | Data Type | Description
+|----------|-----------|-------------
+| 0        | uint8     | Opcode (12)
+| 1        | string16    | Client Skin
+
+### Client Packet 13: Player Custom Color
+
+It is not known when this packet is sent, the Ogario client itself does not use this packet.
+
+| Position | Data Type | Description
+|----------|-----------|-------------
+| 0        | uint8     | Opcode (13)
+| 1        | string16    | Client Cell Color
+
+### Client Packet 14: Player Cell Color
+
+It is not known when this packet is sent, the Ogario client itself does not use this packet.
+
+| Position | Data Type | Description
+|----------|-----------|-------------
+| 0        | uint8     | Opcode (14)
+| 1        | string16    | Client Cell Color
 
 ### Client Packet 15: Party Token
 
