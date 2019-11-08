@@ -188,7 +188,7 @@ It is not known when this packet is sent, the Ogario client itself does not use 
 | Position | Data Type | Description
 |----------|-----------|-------------
 | 0        | uint8     | Opcode (13)
-| 1        | string16    | Client Cell Color
+| 1        | string16    | Client Custom Color
 
 ### Client Packet 14: Player Cell Color
 
