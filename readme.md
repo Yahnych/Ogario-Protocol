@@ -8,7 +8,7 @@ Ogario uses standard data types, the table below is to be used a reference of so
 
 | Type      | Description                                                | Size
 |-----------|------------------------------------------------------------|------
-| uint8     | Unsigned integer (0 to 255)                                | 1 byte
+| uint8     | Unsigned integer (0 to 2<sup>8</sup>-1)                                | 1 byte
 | uint32    | Unsigned integer (0 to 2<sup>32</sup>-1)                   | 4 bytes
 | int32     | Signed integer (-2<sup>31</sup> to 2<sup>31</sup>-1)       | 4 bytes
 | string16    | Null-terminated UTF-16 string (ends when next byte is NULL) | length + 2 bytes
